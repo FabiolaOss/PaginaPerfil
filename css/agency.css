@@ -4,6 +4,10 @@
     position:relative;
     height:0;
 }
+.text-justificado {
+    text-align: justify;
+    text-justify: inter-word;
+}
 .video-responsive iframe{
     left:0;
     top:0;

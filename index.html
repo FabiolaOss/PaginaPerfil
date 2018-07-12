@@ -50,7 +50,7 @@
                         <a class="page-scroll" href="#aluno">Aluno</a>
                     </li>
                     <li>
-
+                        <a class="page-scroll" href="#contato">Contato</a>
                     </li>
                 </ul>
             </div>
@@ -86,25 +86,52 @@
                     </div>
                 </div>
                   <p> Mas antes já trabalhei:
-                <div class="col-sm-8">
+                <div class="col-sm-6 text-justificado">
                   <ul>
                     <li>Como assessora no INSS</li>
                     <li>Na Prefeitura com notícias para o site</li>
                     <li>Na rádio Educadora como repóter</li>
                   </ul>
-                </div>
-                <div class "container">
-                <p>Espero aprender no curso Front-End noções de
-                  linguagem de programação e criar algum
-                aplicativo, ainda que seja primário.</p>
-                <p><i>Quero criar aplicativos e poder colocar em
-                  prática meus projetos.</i></p>
-                <p>Para acessar meu LinkedIn <a target="_blank" href="https://www.linkedin.com/feed/?trk=">clique aqui</a></p>
+                  <p>Espero aprender no curso Front-End noções de
+                    linguagem de programação e criar algum
+                  aplicativo, ainda que seja primário.</p>
+                  <p><i>Quero criar aplicativos e poder colocar em
+                    prática meus projetos.</i></p>
+                  <p>Para acessar meu <a target="_blank" href="https://www.linkedin.com/feed/?trk=">Linkedin</a></p>
                </div>
             </div>
         </div>
     </section>
 
+    <section id="contato">
+          <div class="container">
+              <div class="row">
+                  <div class="col-sm-12 text-center">
+                    <h2 class="texto-magenta section-heading">Contato</h2>
+                    <hr class="ligth">
+                  </div>
+                  <div class="col-sm-12 text-center">
+                    <form>
+                      <p>
+                        <label for="nomeDigitado">NOME:</label>
+                        <input class="form-control" type="text" id="nomeDigitado">
+                      </p>
+                      <p>
+                        <label for="emailDigitado">E-MAIL:</label>
+                        <input class="form-control" type="email" id="emailDigitado">
+                      </p>
+                      <p>
+                        <label for="mensagemDigitada">MENSAGEM:</label>
+                        <textarea class="form-control" id="mensagemDigitada"></textarea>
+                      </p>
+                      <p>
+                        <input onclick="enviar()" class="btn btn-primary" type="submit" value="Enviar">
+                      </p>
+                    </form>
+                  </div>
+              </div>
+          </div>
+        </section>
 
     <footer>
         <div class="container">
@@ -113,7 +140,9 @@
             </div>
         </div>
     </footer>
+<script src="js/arquivo.js">
 
+</script>
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
 
